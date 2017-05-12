@@ -39,5 +39,6 @@
       node.detachEvent('on'+type,node[type+handler])
       node[type+handler] = null
     }
-    return false									    }
+    return false
+  }
 ```
